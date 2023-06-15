@@ -18,7 +18,7 @@ Here performing Mapping(relationShip) between Student and Course Model using ext
 Here explaining about Many-to-Many Mapping
 
 5.ASP.NET CORE Tutorial For Beginners 5 - Data Context, Connection String, Startup File, Migration
-- Create a Data Folder->Then Create DataContext Class->Install all mendatory packages like Microsoft.EntityFrameworkCore, Microsoft.EntityFrameworkCore.SqlServer and Microsoft.EntityFrameworkCore.Tools, Our Class Models set in DbSet in DataContext
+- Create a Data Folder->Then Create DataContext Class->Install all mendatory packages like Microsoft.EntityFrameworkCore, Microsoft.EntityFrameworkCore.SqlServer and Microsoft.EntityFrameworkCore.Tools. In DbSet set our Models for adding tables in db and querying with tables using by models.
 - Create Connection String in appsettings.json File
 - Inject our connection string in Startup File
 - add-migration Init, update-database
